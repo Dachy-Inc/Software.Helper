@@ -9,6 +9,20 @@
     <Company>Dachy</Company>
     <RepositoryUrl>https://github.com/Dachy-Inc/Software.Helper</RepositoryUrl>
     <Description>This contains helper methods to support our web api</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\GIT\Software.WebAPI.App\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>
