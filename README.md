@@ -1,4 +1,4 @@
-# PasswordManager Class Library
+# Software.Helper Class Library
 
 The `Software.Helper` class library provides a namespace with utilities for supporting our Software Development
 

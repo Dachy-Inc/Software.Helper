@@ -25,4 +25,8 @@
     </None>
   </ItemGroup>
 
+  <PropertyGroup>
+	<VersionPrefix>1.0.1</VersionPrefix>
+  </PropertyGroup>
+
 </Project>
